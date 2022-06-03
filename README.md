@@ -1,5 +1,5 @@
 # api_final
-api final
+api_final_yatube - это api для блог-платформы Yatube
 
 ### Как запустить проект:
 
@@ -44,3 +44,10 @@ python3 manage.py migrate
 ```
 python3 manage.py runserver
 ```
+### Примеры запросов  
+
+**POST** api/v1/posts/ - *создание поста* 
+
+
+**GET** api/v1/groups/ - *получить список сообществ*
+
